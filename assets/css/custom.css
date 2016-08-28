@@ -1,0 +1,48 @@
+.my-header{
+width: 100%;
+height: 70px;
+background: linear-gradient(to right, #1565c0 calc(50% - 100px), #0097a7 calc(50% + 20px));
+padding-right: 20px;
+padding-left: 20px;
+}
+.sticker {
+width: 280px;
+height: 280px;
+}
+.image .sticker-img {
+background-image: url('https://avatars3.githubusercontent.com/u/6510267?v=3&s=460');
+background-size: cover;
+}
+.button-collapse{
+color: #fff;
+margin-top: 19px;
+position: absolute;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 20px;
+font-size: 24px;
+}
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a>[class*="mdi-"], .side-nav li>a>i.material-icons{
+float: left;
+line-height: 48px;
+margin: 0 32px 0 0;
+width: 24px;
+color: rgba(0,0,0,0.54);
+font-size: 20px;	
+}
+.desc{
+font-size: 13px;
+}
+main{
+width: 20%;
+margin: 20% auto;
+}
+blockquote{
+font-size: 28px;
+letter-spacing: 2.5px;
+}
+@media only screen and (max-width : 992px) {
+header, main, footer {
+padding-left: 0;
+}
+}

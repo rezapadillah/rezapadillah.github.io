@@ -1,26 +1,56 @@
 <!DOCTYPE html>
-<html> <head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=edge><title>Self Directory - Reza Padillah</title><meta name=description content="Self Directory - Reza Padillah"><meta name=robots content=index,follow,noodp><meta name=googlebot content=index,follow><link href=https://fonts.googleapis.com/css?family=Denk+One rel=stylesheet></head> <body> <div class="sticker image"></div> <p>Hello Friends!! - Hire Me : suplexcode@gmail.com</p> </body> </html> 
-<style>
-	body{
-		font-family: 'Denk One', sans-serif;
-		margin: 15% auto;
-	}
-	p{
-		font-size: 20px;
-		text-align: center;
-	}
-	.sticker {
-        width: 180px;
-        height: 180px;
-        margin: 0 auto;
-    }
-    .image .sticker-img {
-        background-image: url('za.jpg');
-        background-size: cover;
-    }
-</style> 
-<script type=text/javascript>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Self Directory - Reza Padillah</title>
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+	<!-- Side Menu -->
+		<ul id="slide-out" class="side-nav">
+			<li>
+			<div class="userView">
+				<img class="background" src="assets/img/back.png">
+				<div class="sticker image circle"></div>
+				<span class="white-text name">Hello Friends! Iam Reza Padillah</span>
+				<span class="white-text desc">Junior Web Developer & UI/UX Designer</span>
+			</div>
+			</li>
+			<li><a href="#!" class="waves-effect"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+			<li><a href="#!" class="waves-effect"><i class="fa fa-github"></i>Github</a></li>
+			<li><a href="#!" class="waves-effect"><i class="fa fa-dribbble"></i>Dribbble</a></li>
+			<li><a href="#!" class="waves-effect"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+			<li><a href="#!" class="waves-effect"><i class="fa fa-twitter"></i>Twitter</a></li>
+			<li><div class="divider"></div></li>
+			<li><a class="subheader">Hire Me</a></li>
+			<li><a class="waves-effect" href="#!"><i class="material-icons">mail</i>suplexcode@gmail.com</a></li>
+			<li><div class="divider"></div></li>
+			<li><a onclick="$('.button-collapse').sideNav('show');" class="waves-effect waves-light btn red"><span class="fa fa-close"></span>&nbsp;Close</a></li>
+		</ul>
+	<!-- End Side Menu	 -->
+	<div class="my-header">
+		<a href="#" data-activates="slide-out" class="button-collapse waves-effect"><i class="fa fa-bars"></i></a>
+	</div>
+	<main>
+	 <blockquote>
+      Coming Soon!!
+    </blockquote>
+	</main>
+	</body>
+</html>
+<script type="text/javascript" src="assets/js/vendor.js"></script>
+<script>
+$(document).ready(function(){
+	$('.button-collapse').sideNav({
+		menuWidth: 300,
+		edge: 'left',
+		closeOnClick: true 
+	});
+	$('.button-collapse').sideNav('show');
+});
 window.onload = function() {
     Sticker.init('.sticker');
 }
-</script> <script type=text/javascript src=sticker.min.js></script>
+</script>
