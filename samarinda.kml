@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Samarinda.shp</name>
-	<open>1</open>
+	<name>0</name>
 	<Schema name="Samarinda" id="S_Samarinda_SSSSSSIIIIS">
 		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
 </SimpleField>
@@ -27,6 +26,16 @@
 		<SimpleField type="string" name="icon"><displayName>&lt;b&gt;icon&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -44,24 +53,14 @@
 </table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>800000ff</color>
+			<color>260000ff</color>
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>400000ff</color>
+			<color>0d0000ff</color>
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -79,11 +78,11 @@
 </table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>800000ff</color>
+			<color>260000ff</color>
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>400000ff</color>
+			<color>0d0000ff</color>
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
