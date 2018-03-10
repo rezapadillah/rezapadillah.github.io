@@ -57,7 +57,7 @@
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>0d0000ff</color>
+			<color>260000ff</color>
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
@@ -82,7 +82,7 @@
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>0d0000ff</color>
+			<color>260000ff</color>
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
