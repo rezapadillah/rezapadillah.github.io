@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Citra_Niaga_new.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Citra_Niaga_new</name>
+		<Placemark>
+			<name>citra_makanan</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							117.1487109802679,-0.5025220664683923,0 117.1485718156579,-0.5030625006873492,0 117.1487997792666,-0.5031356356735528,0 117.1490873236927,-0.5032284562010704,0 117.1492633805257,-0.5032852768161521,0 117.1492800537472,-0.503234593433353,0 117.1492908749709,-0.5032011006769704,0 117.1493301922676,-0.5030852054975588,0 117.1493715522996,-0.5029648975697686,0 117.149448661633,-0.5027581992538343,0 117.149262562029,-0.5027010362450266,0 117.1490936963755,-0.5026494394260437,0 117.1489052640571,-0.502581147808709,0 117.1487594343518,-0.50253628177142,0 117.1487109802679,-0.5025220664683923,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>citra_pakaian</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							117.1493370622976,-0.5033150486613086,0 117.1493750884809,-0.5033357207400359,0 117.1494681074487,-0.5033715101434813,0 117.1495671106734,-0.503409140801059,0 117.1496444415646,-0.5034371637476642,0 117.1497531912598,-0.5034731793376877,0 117.1499147982946,-0.5035267532323824,0 117.1501052763516,-0.5035980586078872,0 117.1503017355353,-0.5036637100346507,0 117.150500454427,-0.5037347575045658,0 117.150687943358,-0.5037995688395399,0 117.1507119575133,-0.5037341095572382,0 117.1507172200988,-0.5037169066715825,0 117.1507347665572,-0.5036567219444216,0 117.1507556800323,-0.5035971376757189,0 117.1507154153061,-0.5035818022245168,0 117.1505732187502,-0.5035263323120626,0 117.1503745299639,-0.5034616642020836,0 117.1502137600306,-0.5034082340295171,0 117.1500857174291,-0.5033662905464897,0 117.1499348980953,-0.5033159620645367,0 117.1497976622466,-0.5032640013158769,0 117.1497036494676,-0.5032249357098411,0 117.149618535352,-0.5031980277923921,0 117.1495282177948,-0.5031663598375336,0 117.1493895863186,-0.5031266839054154,0 117.1493812808212,-0.5031739574092541,0 117.1493370622976,-0.5033150486613086,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>citra_pakaian2</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							117.1494168453131,-0.502962840772347,0 117.1497642339067,-0.5030846476798558,0 117.1498383949267,-0.5028684756025198,0 117.14964948709,-0.5028060441999847,0 117.1494816539612,-0.5027452126359223,0 117.1494168453131,-0.502962840772347,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>citra_souvernir</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							117.1498969118847,-0.503208849291324,0 117.1499070264594,-0.5032165639782266,0 117.1501398484407,-0.5032900342920494,0 117.1503294308043,-0.5033493133220219,0 117.150543678416,-0.5034315229786411,0 117.1507234439269,-0.5035045888071578,0 117.1507779840339,-0.5035665768790821,0 117.1508155202557,-0.503641915936678,0 117.150852747476,-0.5037121371227775,0 117.1508433791016,-0.5037417312078839,0 117.150830491447,-0.5037824423307504,0 117.1508153089498,-0.5038451758218738,0 117.1508740656833,-0.5038707422336172,0 117.1511112783325,-0.5039324070507694,0 117.1511426426353,-0.5038294262774448,0 117.1511771944315,-0.5037215934444953,0 117.1512125288023,-0.5035874528360089,0 117.1512639349324,-0.5033807186436806,0 117.1511246847609,-0.5033273829582406,0 117.150974925906,-0.5032757352399888,0 117.1506802654905,-0.5031718865507745,0 117.1505341741458,-0.5031340359624625,0 117.1503024775017,-0.50305157855242,0 117.1499780206492,-0.5029361169339076,0 117.1498969118847,-0.503208849291324,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
