@@ -34,7 +34,7 @@ $(function() {
   },
   { 
     action: 'type',
-    strings: ["Let's Work And Collaboration : hello@reza.cloud"],
+    strings: ["Let's Work And Collaboration : suplexcode@gmail.com"],
     postDelay: 2000
   }
   
