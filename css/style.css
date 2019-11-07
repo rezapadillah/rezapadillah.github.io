@@ -1,8 +1,8 @@
 /*Code By : https://codepen.io/simoami/pen/zstvo*/
 
 body {
-  background: #3E3E3E;
-  margin: 0;
+  background: #fff;
+  margin: 10% auto;
   padding: 0;
 }
 
@@ -61,7 +61,7 @@ a:hover{
   color: white;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
   font-size: 11pt;
-  background: #30353A;
+  background: #000;
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
