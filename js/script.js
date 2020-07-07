@@ -11,7 +11,7 @@ $(function() {
   { 
     action: 'type',
     strings: ["ls -la"],
-    output: '<span class="gray">secret &nbsp;&nbsp; <i class="fa fa-heart"></i> Ra... <i class="fa fa-heart"></i></span><br>&nbsp;',
+    output: '<span class="gray">secret &nbsp;&nbsp; <i class="fa fa-heart"></i> Feryn <i class="fa fa-heart"></i></span><br>&nbsp;',
     postDelay: 1500
   },
   { 
